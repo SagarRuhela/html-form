@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is form tutorial</h2>
+    <form action="backend.php">
+        <!-- div tag is used to divide two blocks which is good than br tag -->
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="myname" id="name">
+        </div><br>
+        <div>
+            Role:<input type="text" name="myRoll">
+        </div><br>
+        <div>
+            Email:<input type="email" name="myemail">
+        </div><br>
+       
+        <div>
+           Date: <input type="date" name="myDate">
+        </div><br>
+         <div>
+           Week: <input type="week" name="Myweek">
+        </div><br>
+        <div>
+           Choose Colur: <input type="color" name="myColour">
+        </div><br>
+        <div>
+        are you 18+   <input type="checkbox" name="Mycheckbox">
+        </div><br>
+        <div>
+          male  <input type="radio" name="myGender"> female<input type="radio" name="myGender">
+          others<input type="radio" name="myGender">
+        </div><br>
+        <div>
+         tell us about yoursel  <br>   <textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="car">cars</label>
+            <select name="myCars" id="car">
+                <option value="ind">Indica</option>
+                <option value="swt">Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+        
+        <input type="reset" value="Reset now"></div>
+    </form>
+</body>
+
+</html>
